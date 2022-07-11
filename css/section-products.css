@@ -1,0 +1,21 @@
+/* .main-products__list */
+.main_products__list .product-card {
+    border: 1px solid var(--border-color);
+    padding: 5px;
+}
+@media (min-width:560px) {
+    .main_products__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:600px) {
+    .main_products__list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width:800px) {
+    .main_products__list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
